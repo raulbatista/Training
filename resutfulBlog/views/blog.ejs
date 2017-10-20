@@ -1,0 +1,15 @@
+<% include partials/header %>
+
+
+<div class="blogListBox"><a class="btn btn-default" href="/blog/new">Create New Post</a>
+</div>
+<% blogPosts.forEach( function(post){ %>
+<div class="blogListBox well text-center ">
+	<h2 class="blogListTitle"><%= post.title %></h2>
+	<img class="postListImg" src="<%= post.img %>">
+	<p><%- post.body.substring(0,100)+'...' %></p>
+	<a href="/blog/<%= post._id %>">Read More</a>
+</div>
+<% }); %>
+
+<% include partials/footer %>

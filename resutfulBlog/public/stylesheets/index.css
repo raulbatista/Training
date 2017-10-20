@@ -1,0 +1,73 @@
+body, html {
+	padding-bottom: 30px;
+	font-size: 20px;
+	background-color: rgba(3, 45, 97, 0.24);
+}
+div.jumbotron {
+	background-color: rgba(0, 0, 0, 0.36);
+}
+
+h1.brand {
+	display: inline-block;
+}
+
+#left {
+	float: right;
+}
+#left a {
+	display: block;
+}
+
+.postListImg{
+	width: 70%;
+	border-radius: 20px;
+	margin: 10px auto;
+}
+
+.blogListTitle {
+
+}
+
+.blogListBox {
+	max-width: 700px;
+	margin: 10px auto;
+}
+
+.blogBox {
+	max-width: 700px;
+	margin: 10px auto;
+}
+
+.blogbody {
+	display: block;
+}
+.blogTitle {
+	font-size: 3em;
+	margin-bottom: 20px;
+	border-bottom: 2px solid black;
+	width: 100%;
+}
+.postImg {
+	min-width: 80%;
+	opacity: 0.9;
+	border-radius: 30px;
+}
+div.blogBox p {
+	font-size: 1em;
+}
+.writerbox {
+	max-width: 700px;
+	margin: 10px auto;
+}
+input{
+	display: block;
+	width: 100%;
+}
+textarea{
+	display: block;
+	width: 100%;
+	min-height: 1000px;
+}
+label{
+	margin-top: 20px;
+}

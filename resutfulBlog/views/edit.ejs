@@ -1,0 +1,18 @@
+<% include partials/header %>
+
+<div class="writerbox">
+	<h1>Edit Blog Post</h1>
+	<form action="/blog/<%= post._id %>?_method=PUT" method="POST">
+		<label>Title</label>
+		<input type="text" name="title" value="<%= post.title %>">
+		<label>Author</label>
+		<input type="text" name="author" value="<%= post.author %>">
+		<label>Image</label>
+		<input type="text" name="img" value="<%= post.img %>">
+		<label>Your Blog Post:</label>
+		<textarea name="body"><%= post.body %></textarea>
+		<input class="btn btn-default" type="submit">
+	</form>
+</div>
+
+<% include partials/footer %>
